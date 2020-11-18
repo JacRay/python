@@ -1,0 +1,5 @@
+employ = open("hello.py", "a")
+employ.write("\n" + input("Enter appending data: "))
+employ.close()
+employ = open(" trial.txt", "w")
+employ.write(input("Enter new file data:"))
